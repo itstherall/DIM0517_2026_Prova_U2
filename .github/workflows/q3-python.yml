@@ -1,5 +1,10 @@
 name: Python
 
+on:
+  pull_request:
+    branches: [develop]
+    types:
+      - assigned
 
 jobs:
   build:
